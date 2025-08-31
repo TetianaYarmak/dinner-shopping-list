@@ -1,0 +1,94 @@
+body {
+  font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  display: block;
+  background-color: #3b3f45;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  cursor: url(cursor.png), auto;
+}
+
+header {
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 12px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 4px;
+}
+
+.list-name {
+  color: #ff8984;
+  background-color: #4a4f56;
+}
+
+.container {
+  margin: auto;
+  max-width: 1170px;
+  width: 65%;
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+
+.menu-item {
+  width: 534px;
+  height: 45px;
+  color: #FFFFFF;
+  margin: auto;
+}
+
+.odd {
+  background-color: #88839E;
+
+}
+
+.even {
+  background-color: #625E77;
+
+}
+
+input[type="checkbox"] {
+  width: 19px;
+  height: 19px;
+  margin: 12px 16px 0 12px;
+  /* margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 16px; */
+}
+
+.first-text {
+  font-size: 18px;
+}
+
+.second-text {
+  font-size: 11px;
+}
+
+footer {
+  width: 534px;
+  height: 45px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
